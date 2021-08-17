@@ -1,6 +1,6 @@
 {
   "name": "karanja1victor-palindrome",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Palindrome checker",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/karanja1victor/palindrome/issues"
   },
-  "homepage": "https://github.com/karanja1victor/palindrome#readme"
+  "homepage": "https://github.com/karanja1victor/palindrome#readme",
+  "directories": {
+    "test": "test"
+  }
 }

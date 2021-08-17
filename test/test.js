@@ -4,7 +4,10 @@ let Phrase = require("../index.js");
 describe("Phrase", function() {
   //Phrase#palindrome
   describe("#palindrome", function() {
-
+    it("should return false for an empty string", function(){
+      let emptyPalindrome = new Phrase("");
+      assert.strictEqual(emptyPalindrome.palindrome(), false);
+    });
     it("should return false for a non-palindrome", function() {
       let nonPalindrome = new Phrase("apple");
       assert(!nonPalindrome.palindrome());
